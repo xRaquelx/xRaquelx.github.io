@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.main-header {
+    font-family: "mae-variable", sans-serif;
+    font-variation-settings: "wght" 500;
+    font-style: normal;
+    font-size: 2.1rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.main-content {
+    font-family: "mae-variable", sans-serif;
+    font-variation-settings: "wght" 100;
+    font-style: normal;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    float: left;
+    
+}
+
+.main-img {
+    float: right;
+}
+
+.main-img img {
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.1), 3px 5px 30px 5px rgba(0, 0, 0, 0.1);
+}
